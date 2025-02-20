@@ -14,7 +14,7 @@ public class App {
         
         
         mensagem = mensagem + 1234;         //funciona como conversão para string
-        mensagem = mensagem + "1234";       //funciona como string
+        mensagem = mensagem + "1234";       //funciona como string nativa
         int idade = 20 
         System.out.format("A idade de Fulano é %i", idade);     //println nao funciona com int
     }
