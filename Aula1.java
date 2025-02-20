@@ -1,6 +1,8 @@
-public class App {
+public class App { 
     public static void main(String args []){
         String mensagem = "Hello, world!!";
+		String nome = args[0];
+
         System.out.println(mensagem);
         System.out.println("Hello, World!");
         
@@ -13,8 +15,7 @@ public class App {
         
         mensagem = mensagem + 1234;         //funciona como conversão para string
         mensagem = mensagem + "1234";       //funciona como string
-        
-        int idade = 20;
+        int idade = 20 
         System.out.format("A idade de Fulano é %i", idade);     //println nao funciona com int
     }
 }
