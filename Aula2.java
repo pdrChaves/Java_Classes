@@ -17,7 +17,6 @@ public class App {
         renda= 123.456789;
         System.out.println("Agora, a variavel vale " +renda);
         
-        //
-
+        
     }
 }
