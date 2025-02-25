@@ -9,14 +9,16 @@ public class App {
         //variavel ponto flutuante
         //0.12345678910 x 10^4
         // double armazena o dobro de bits na memoria (consequentemnte o dobro de bites)
+        // float = 32 bits, double = 64 bits
         // float renda;     erro por numero ser muito grande
         // double precisa ser inicializado sendo declarado, nem que seja atribuindo a 0
 
         double renda = 0;
         System.out.println("valor inicial da renda: " +renda);
-        renda= 123.456789;
+        renda= 1235.6789;
         System.out.println("Agora, a variavel vale " +renda);
+        System.out.printf("Agora, a variavel vale %.2f",renda);
         
-        
+
     }
 }
