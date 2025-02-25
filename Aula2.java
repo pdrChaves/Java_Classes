@@ -17,7 +17,9 @@ public class App {
         System.out.println("valor inicial da renda: " +renda);
         renda= 1235.6789;
         System.out.println("Agora, a variavel vale " +renda);
-        System.out.printf("Agora, a variavel vale %.2f",renda);
+        System.out.printf("Agora, a variavel vale %.2f %n",renda);
+        System.out.printf("Agora, a variavel vale %.4f %n",renda);
+        System.out.printf("Agora, a variavel vale %.6f %n",renda);
         
 
     }
