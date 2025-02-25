@@ -6,8 +6,8 @@ public class App {
         String nome = "Fulano";
         int dia = 25;
         
-        System.out.printf("Olá " +nome+ ", hoje é dia " +dia+"!");
-        System.out.printf("\n====================================================\n");
+        System.out.printf("Olá " +nome+ ", hoje é dia " +dia+"! %n");
+        System.out.printf("\n====================================================\n %n");
         
         //variavel ponto flutuante
         //0.12345678910 x 10^4
@@ -27,6 +27,7 @@ public class App {
         System.out.printf("Agora, a variavel vale %.6f %n",renda);
 
          // agora o formato padrao foi configurado para Estados Unidos
+         System.out.printf("\n====================================================\n %n");
         Locale.setDefault(Locale.US);
         System.out.println("Formato americano:");
         System.out.printf("Agora, a variavel vale %.2f %n",renda);
