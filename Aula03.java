@@ -1,3 +1,5 @@
+//Exemplos leitura de dados
+
 import java.util.Scanner;
 
 public class App {
