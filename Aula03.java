@@ -10,9 +10,12 @@ public class App {
         System.out.println("x = "+x);
         System.out.println("y = "+y);
         
-        String s;
+        String s,t;
         s = sc.next ();                      //pegará a proxima entrada que encaixe como String
+        t = sc.next ();
         System.out.println("s = "+s);   
+        System.out.println("t = "+t);   
+
 
     }
 }
